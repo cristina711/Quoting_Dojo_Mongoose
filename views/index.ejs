@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<h1>Here are the awesome quotes!</h1>
+	<a href="/">Add another quotes!</a>
+	<hr>
+	<p>
+		<% for(var quote of quotes){ %>
+			
+            <p>Quote: <%= quote.quote %> </p>
+            <p>Name: <%= quote.name %> </p>
+		<% } %>	
+    </p>
+ 
+</body>
+</html>
